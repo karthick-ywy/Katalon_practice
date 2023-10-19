@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MSK_Test Suite" time="20.496" tests="1" failures="0" errors="0">
+   <testsuite name="MSK_Test Suite" tests="1" failures="0" errors="0" time="20.496" skipped="0" timestamp="2023-10-09 12:39:28" hostname="karth - CR-053-Karthick" id="Test Suites/MSK_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\karth\\Katalon Studio\\Test_01\\Reports\\20231009_123922\\MSK_Test Suite\\20231009_123922"/>
+         <property name="logFiles" value="C:\\Users\\karth\\Katalon Studio\\Test_01\\Reports\\20231009_123922\\MSK_Test Suite\\20231009_123922\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="karth - CR-053-Karthick"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 117.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.74"/>
+         <property name="sessionId" value="0a988e2147c29901880e8d8a7e5c9f8e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="20.238" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2023-10-09 12:39:29 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2023-10-09 12:39:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-09 12:39:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-09 12:39:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-09 12:39:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-09 12:39:32 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-10-09 12:39:35 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-10-09 12:39:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-10-09 12:39:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-10-09 12:39:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-10-09 12:39:37 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-10-09 12:39:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jA5O/nHFRoT/1zowqUjE9HV"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-10-09 12:39:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-10-09 12:39:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-10-09 12:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-10-09 12:39:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-10-09 12:39:39 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-10-09 12:39:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-10-09 12:39:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-10-09 12:39:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-10-09 12:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-10-09 12:39:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-10-09 12:39:42 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-10-09 12:39:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-10-09 12:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-10-09 12:39:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/div_Medicare                               _cb3988")): Object: 'Object Repository/Page_CURA Healthcare Service/div_Medicare                               _cb3988' is clicked on
+
+2023-10-09 12:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/div_Medicare                               _cb3988' is clicked on
+
+2023-10-09 12:39:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2023-10-09 12:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2023-10-09 12:39:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2023-10-09 12:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2023-10-09 12:39:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_5")): Object: 'Object Repository/Page_CURA Healthcare Service/td_5' is clicked on
+
+2023-10-09 12:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_5' is clicked on
+
+2023-10-09 12:39:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "General health check up"): Text 'General health check up' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-10-09 12:39:45 - [MESSAGE][PASSED] - Text 'General health check up' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-10-09 12:39:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-10-09 12:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-10-09 12:39:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Medicaid")): Object: 'Object Repository/Page_CURA Healthcare Service/p_Medicaid' is clicked on
+
+2023-10-09 12:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/p_Medicaid' is clicked on
+
+2023-10-09 12:39:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/label_Facility")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Facility' is clicked on
+
+2023-10-09 12:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Facility' is clicked on
+
+2023-10-09 12:39:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center")): Object: 'Object Repository/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center' is clicked on
+
+2023-10-09 12:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center' is clicked on
+
+2023-10-09 12:39:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2023-10-09 12:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2023-10-09 12:39:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-09 12:39:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-09 12:39:28 - [TEST_SUITE][PASSED] - MSK_Test Suite: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

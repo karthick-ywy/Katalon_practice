@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case
+Expected Result
+Actual result</description>
+   <name>Test_new_01</name>
+   <tag>Sanity</tag>
+   <comment></comment>
+   <testCaseGuid>9d57c2bd-40c5-4342-a31d-dc7d82db00d8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MSK_Test Suite,Chrome 117.0.0.0,,,2023-10-09 12:39:28,2023-10-09 12:39:49,20.496s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Chrome 117.0.0.0,,,2023-10-09 12:39:29,2023-10-09 12:39:49,20.238s,PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,2023-10-09 12:39:29,2023-10-09 12:39:32,2.464s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 117.0.0.0,,,2023-10-09 12:39:32,2023-10-09 12:39:35,3.571s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 117.0.0.0,,,2023-10-09 12:39:35,2023-10-09 12:39:36,0.867s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 117.0.0.0,,,2023-10-09 12:39:36,2023-10-09 12:39:37,0.899s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jA5O/nHFRoT/1zowqUjE9HV"")",Chrome 117.0.0.0,,,2023-10-09 12:39:37,2023-10-09 12:39:37,0.509s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 117.0.0.0,,,2023-10-09 12:39:37,2023-10-09 12:39:38,1.098s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 117.0.0.0,,,2023-10-09 12:39:38,2023-10-09 12:39:39,0.799s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 117.0.0.0,,,2023-10-09 12:39:39,2023-10-09 12:39:40,0.441s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 117.0.0.0,,,2023-10-09 12:39:40,2023-10-09 12:39:41,1.227s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 117.0.0.0,,,2023-10-09 12:39:41,2023-10-09 12:39:42,1.146s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 117.0.0.0,,,2023-10-09 12:39:42,2023-10-09 12:39:42,0.392s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Medicare                               _cb3988""))",Chrome 117.0.0.0,,,2023-10-09 12:39:42,2023-10-09 12:39:43,0.395s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 117.0.0.0,,,2023-10-09 12:39:43,2023-10-09 12:39:43,0.360s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 117.0.0.0,,,2023-10-09 12:39:43,2023-10-09 12:39:44,0.364s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_5""))",Chrome 117.0.0.0,,,2023-10-09 12:39:44,2023-10-09 12:39:44,0.485s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""General health check up"")",Chrome 117.0.0.0,,,2023-10-09 12:39:44,2023-10-09 12:39:45,0.818s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 117.0.0.0,,,2023-10-09 12:39:45,2023-10-09 12:39:46,0.741s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Medicaid""))",Chrome 117.0.0.0,,,2023-10-09 12:39:46,2023-10-09 12:39:46,0.539s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Facility""))",Chrome 117.0.0.0,,,2023-10-09 12:39:46,2023-10-09 12:39:47,0.337s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center""))",Chrome 117.0.0.0,,,2023-10-09 12:39:47,2023-10-09 12:39:47,0.365s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 117.0.0.0,,,2023-10-09 12:39:47,2023-10-09 12:39:48,1.302s,PASSED
+closeBrowser(),Chrome 117.0.0.0,,,2023-10-09 12:39:48,2023-10-09 12:39:49,0.756s,PASSED

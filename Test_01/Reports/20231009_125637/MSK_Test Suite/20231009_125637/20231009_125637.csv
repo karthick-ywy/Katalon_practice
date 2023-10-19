@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MSK_Test Suite,Windows - Firefox 116.0,,,2023-10-09 12:56:44,2023-10-09 12:59:19,2m - 35.213s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Windows - Firefox 116.0,,,2023-10-09 12:56:44,2023-10-09 12:59:19,2m - 34.957s,PASSED
+"openBrowser("""")",Windows - Firefox 116.0,,,2023-10-09 12:56:45,2023-10-09 12:57:42,57.353s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Firefox 116.0,,,2023-10-09 12:57:42,2023-10-09 12:57:44,1.887s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Windows - Firefox 116.0,,,2023-10-09 12:57:44,2023-10-09 12:57:48,3.737s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Windows - Firefox 116.0,,,2023-10-09 12:57:48,2023-10-09 12:57:54,6.858s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jA5O/nHFRoT/1zowqUjE9HV"")",Windows - Firefox 116.0,,,2023-10-09 12:57:54,2023-10-09 12:57:58,4.109s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Windows - Firefox 116.0,,,2023-10-09 12:57:58,2023-10-09 12:58:02,3.583s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Windows - Firefox 116.0,,,2023-10-09 12:58:02,2023-10-09 12:58:09,6.478s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Windows - Firefox 116.0,,,2023-10-09 12:58:09,2023-10-09 12:58:13,4.049s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Windows - Firefox 116.0,,,2023-10-09 12:58:13,2023-10-09 12:58:16,3.509s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Windows - Firefox 116.0,,,2023-10-09 12:58:16,2023-10-09 12:58:33,17.301s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Windows - Firefox 116.0,,,2023-10-09 12:58:33,2023-10-09 12:58:38,4.233s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Medicare                               _cb3988""))",Windows - Firefox 116.0,,,2023-10-09 12:58:38,2023-10-09 12:58:41,3.427s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Windows - Firefox 116.0,,,2023-10-09 12:58:41,2023-10-09 12:58:45,3.453s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Windows - Firefox 116.0,,,2023-10-09 12:58:45,2023-10-09 12:58:48,3.927s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_5""))",Windows - Firefox 116.0,,,2023-10-09 12:58:48,2023-10-09 12:58:52,3.338s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""General health check up"")",Windows - Firefox 116.0,,,2023-10-09 12:58:52,2023-10-09 12:58:58,6.490s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Windows - Firefox 116.0,,,2023-10-09 12:58:58,2023-10-09 12:59:02,3.658s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Medicaid""))",Windows - Firefox 116.0,,,2023-10-09 12:59:02,2023-10-09 12:59:06,3.721s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Facility""))",Windows - Firefox 116.0,,,2023-10-09 12:59:06,2023-10-09 12:59:09,3.568s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center""))",Windows - Firefox 116.0,,,2023-10-09 12:59:09,2023-10-09 12:59:13,3.907s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Windows - Firefox 116.0,,,2023-10-09 12:59:13,2023-10-09 12:59:17,3.380s,PASSED
+closeBrowser(),Windows - Firefox 116.0,,,2023-10-09 12:59:17,2023-10-09 12:59:19,2.661s,PASSED
